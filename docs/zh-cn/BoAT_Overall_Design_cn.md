@@ -129,7 +129,7 @@ Wallet区块链钱包含两部分内容，钱包接口和交易接口，分别�
   + 钱包删除
   
 ###### 钱包接口功能实现简述  
-####### BoAT-Engine初始化/反初始化
+**BoAT-Engine初始化/反初始化**
 + BoAT-Engine初始化：  
 在使用BoAT SDK之前应做BoAT-Engine初始化，该接口执行的内容包括：
   1. 全局资源初始化  
@@ -139,7 +139,7 @@ SDK使用的一些三方库如果在调用前需做一次初始化，则应放�
   1. 全局资源反初始化  
 SDK使用的一些三方库如果在调用前需做一次反初始化，则应放在此处执行反初始化，如*协议*层使用的三方库cjson、curl等。
 
-####### 钱包操作
+**钱包操作**
 + 钱包初始化：  
 该接口用于实现一个新钱包的创建或一个已创建钱包的读取，该接口执行的内容包括：  
   1. 根据具体入参决定是创建新钱包还是读取已创建的钱包  
@@ -170,7 +170,7 @@ SDK使用的一些三方库如果在调用前需做一次反初始化，则应�
   
  
 
-###### Ethereum/Polygon交易接口功能实现简述
+###### Ethereum-Polygon交易接口功能实现简述
 + 钱包初始化：  
   该接口执行的内容包括：
   1. 设置区块链合约地址
@@ -717,18 +717,26 @@ BoAT的设计应考虑TEE环境的支持。对于有TEE环境的硬件，BoAT应
 图 5-1 使用BoAT创建一笔交易的流程  
 
 其中：
-+ BoAT BoAT-Engine~~SDK~~初始化：  
-请参考[BoAT-Engine~~SDK~~初始化/反初始化](#BoAT-Engine~~SDK~~初始化反初始化)中关于“BoAT BoAT-Engine~~SDK~~初始化”的描述
-+ 创建钱包  
-请参考[钱包操作](#钱包操作)中关于“创建钱包”的描述 
-+ 交易初始化  
-请参考[Ethereum/Polygon交易接口功能实现简述](#Ethereumpolygon交易接口功能实现简述)中关于“交易初始化”的描述
++ BoAT BoAT-Engine初始化：  
+请参考[BoAT-Engine初始化/反初始化](#钱包接口功能实现简述)中关于“BoAT BoAT-Engine初始化”的描述
++ 创建密钥对
+请参考[密钥对操作](#密钥对操作)中关于“密钥对生成”的描述
++ 创建区块链网络
+请参考[Network操作](#Network操作)中关于“Network创建”的描述
++ 初始化钱包
+请参考[钱包接口功能实现简述](#钱包接口功能实现简述)中关于“钱包初始化”的描述
++ 交易初始化
+请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“交易初始化”的描述
 + 设置Nonce字段
+请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“交易初始化、发送Ether”的描述
 + 设置Data字段
+请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“交易初始化、发送Ether”的描述
 + 发送交易  
-请参考[Ethereum/Polygon交易接口功能实现简述](#Ethereumpolygon交易接口功能实现简述)中关于“发送交易”的描述 
-+ BoAT SDK反初始化  
-请参考[BoAT-Engine~~SDK~~初始化/反初始化](#BoAT-Engine~~SDK~~初始化反初始化)中关于“BoAT SDK反初始化”的描述
+请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“发送交易”的描述 
++ 反初始化钱包
+请参考[钱包接口功能实现简述](#钱包接口功能实现简述)中关于“钱包反初始化”的描述
++ BoAT Engine反初始化  
+请参考[BoAT-Engin初始化/反初始化](#钱包接口功能实现简述)中关于“BoAT Engine反初始化”的描述
 
 ### 使用BoAT创建一笔PlatON交易的流程
 创建一笔PlatON交易的流程和Ethereum一致。相关描述请参考[使用BoAT创建一笔Ethereum交易的流程](#使用BoAT创建一笔Ethereum交易的流程)。 
