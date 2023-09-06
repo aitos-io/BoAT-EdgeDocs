@@ -29,7 +29,7 @@ As a blockchain application for the Internet of Things (IoT) edge, BoAT Edge sho
 + Provision of C language interface contract generation tools for different blockchains
 
 ## BoAT Edge Position in the Entire Blockchain Network
-As a middleware connecting IoT devices and the blockchain, BoAT Edge's position in the entire interaction network is shown in Figure 3-1.
+As a middleware connecting IoT devices and the blockchain, BoAT Edge's position in the entire interaction network is shown in Figure 3-1.  
 ![BoAT position](./images/BoAT_Overall_Design_cn-F3-1-Boat_Position.png)  
 Figure 3-1: BoAT's position in the blockchain interaction network
 
