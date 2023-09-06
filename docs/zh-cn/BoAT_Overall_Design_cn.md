@@ -712,40 +712,40 @@ BoAT的设计应考虑TEE环境的支持。对于有TEE环境的硬件，BoAT应
 
 ## 使用BoAT SDK创建一笔区块链交易的流程
 ### 使用BoAT SDK创建一笔Ethereum交易的流程
-一个典型的使用BoAT创建一笔Ethereum交易的流程如图5-1所示：  
+一个典型的使用BoAT SDK创建一笔Ethereum交易的流程如图5-1所示：  
 ![使用BoAT创建一笔交易的流程](./images/BoAT_Overall_Design_cn-F5-1-Create_Ttransaction.png)  
 图 5-1 使用BoAT创建一笔交易的流程  
 
 其中：
 + BoAT BoAT-Engine初始化：  
 请参考[BoAT-Engine初始化/反初始化](#钱包接口功能实现简述)中关于“BoAT BoAT-Engine初始化”的描述
-+ 创建密钥对
++ 创建密钥对  
 请参考[密钥对操作](#密钥对操作)中关于“密钥对生成”的描述
-+ 创建区块链网络
++ 创建区块链网络  
 请参考[Network操作](#Network操作)中关于“Network创建”的描述
-+ 初始化钱包
++ 初始化钱包  
 请参考[钱包接口功能实现简述](#钱包接口功能实现简述)中关于“钱包初始化”的描述
-+ 交易初始化
++ 交易初始化  
 请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“交易初始化”的描述
-+ 设置Nonce字段
++ 设置Nonce字段  
 请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“交易初始化、发送Ether”的描述
-+ 设置Data字段
++ 设置Data字段  
 请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“交易初始化、发送Ether”的描述
 + 发送交易  
 请参考[Ethereum-Polygon交易接口功能实现简述](#Ethereum-Polygon交易接口功能实现简述)中关于“发送交易”的描述 
-+ 反初始化钱包
++ 反初始化钱包  
 请参考[钱包接口功能实现简述](#钱包接口功能实现简述)中关于“钱包反初始化”的描述
 + BoAT Engine反初始化  
 请参考[BoAT-Engin初始化/反初始化](#钱包接口功能实现简述)中关于“BoAT Engine反初始化”的描述
 
 ### 使用BoAT创建一笔PlatON交易的流程
-创建一笔PlatON交易的流程和Ethereum一致。相关描述请参考[使用BoAT创建一笔Ethereum交易的流程](#使用BoAT创建一笔Ethereum交易的流程)。 
+创建一笔PlatON交易的流程和Ethereum一致。相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT SDK创建一笔Ethereum交易的流程)。 
 
 ### 使用BoAT创建一笔PlatONE交易的流程
-创建一笔PlatONE交易的流程和Ethereum类似。PlatONE在发送交易前除了要设置Nonce字段和Data字段，还需要设置交易类型字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT创建一笔Ethereum交易的流程](#使用BoAT创建一笔Ethereum交易的流程)。 
+创建一笔PlatONE交易的流程和Ethereum类似。PlatONE在发送交易前除了要设置Nonce字段和Data字段，还需要设置交易类型字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT SDK创建一笔Ethereum交易的流程)。 
 
 ### 使用BoAT创建一笔FISCO BCOS交易的流程
-创建一笔FISCO BCOS交易的流程和Ethereum类似。FISCO BCOS在发送交易前还需要设置交易生命周期字段、链信息/业务信息字段、群组字段和预留字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT创建一笔Ethereum交易的流程](#使用BoAT创建一笔Ethereum交易的流程)。 
+创建一笔FISCO BCOS交易的流程和Ethereum类似。FISCO BCOS在发送交易前还需要设置交易生命周期字段、链信息/业务信息字段、群组字段和预留字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT SDK创建一笔Ethereum交易的流程)。 
 
 
 ## 参考文档
