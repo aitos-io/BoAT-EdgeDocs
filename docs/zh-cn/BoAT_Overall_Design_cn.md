@@ -739,13 +739,13 @@ BoAT的设计应考虑TEE环境的支持。对于有TEE环境的硬件，BoAT应
 请参考[BoAT-Engin初始化/反初始化](#钱包接口功能实现简述)中关于“BoAT Engine反初始化”的描述
 
 ### 使用BoAT创建一笔PlatON交易的流程
-创建一笔PlatON交易的流程和Ethereum一致。相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT SDK创建一笔Ethereum交易的流程)。 
+创建一笔PlatON交易的流程和Ethereum一致。相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT-SDK创建一笔Ethereum交易的流程)。 
 
 ### 使用BoAT创建一笔PlatONE交易的流程
-创建一笔PlatONE交易的流程和Ethereum类似。PlatONE在发送交易前除了要设置Nonce字段和Data字段，还需要设置交易类型字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT SDK创建一笔Ethereum交易的流程)。 
+创建一笔PlatONE交易的流程和Ethereum类似。PlatONE在发送交易前除了要设置Nonce字段和Data字段，还需要设置交易类型字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT-SDK创建一笔Ethereum交易的流程)。 
 
 ### 使用BoAT创建一笔FISCO BCOS交易的流程
-创建一笔FISCO BCOS交易的流程和Ethereum类似。FISCO BCOS在发送交易前还需要设置交易生命周期字段、链信息/业务信息字段、群组字段和预留字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT SDK创建一笔Ethereum交易的流程)。 
+创建一笔FISCO BCOS交易的流程和Ethereum类似。FISCO BCOS在发送交易前还需要设置交易生命周期字段、链信息/业务信息字段、群组字段和预留字段，其余部分流程与Ethereum一致，相关描述请参考[使用BoAT SDK创建一笔Ethereum交易的流程](#使用BoAT-SDK创建一笔Ethereum交易的流程)。 
 
 
 ## 参考文档
