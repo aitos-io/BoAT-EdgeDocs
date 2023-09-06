@@ -84,7 +84,7 @@ Visit the [BoAT Blockchain IoT Module Product White Paper](https://aitos-io.gith
 Visit the [BoAT Blockchain IoT Module Technology and Application](https://aitos-io.github.io/BoAT-X-Framework/en-us/BoAT_Blockchain_IoT_Module_Technology_and_Application_en.pdf).
 
 ### Documentation Index
-For the complete documentation index, please visit the [BoAT Documentation](https://aitos-io.github.io/BoAT-X-Framework).
+For the complete documentation index, please visit the [BoAT Documentation](https://aitos-io.github.io/BoAT-EdgeDocs).
 
 ### Frequently Asked Questions
 Coming soon.
@@ -101,7 +101,7 @@ Community contributions from core team members are welcome, including (but not l
 
 For more information, please refer to the [Contribution Guideline](./CONTRIBUTING.md).
 
-For development documentation, please refer to the [BoAT documentation](https://aitos-io.github.io/BoAT-X-Framework).
+For development documentation, please refer to the [BoAT documentation](https://aitos-io.github.io/BoAT-EdgeDocs).
 
 To submit Pull Requests, please visit [Pull Requests](https://github.com/aitos-io/BoAT-X-Framework/pulls).
 
