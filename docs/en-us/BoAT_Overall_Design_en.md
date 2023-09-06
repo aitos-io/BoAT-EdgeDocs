@@ -130,17 +130,17 @@ The wallet should implement the following functions:
 
 
  ###### Wallet Interface Function Implementation Summary
-####### BoAT-Engine Initialization/Deinitialization
+**BoAT-Engine Initialization/Deinitialization**
 + BoAT-Engine Initialization:
 Before using the BoAT SDK, BoAT-Engine initialization should be performed. The interface includes the following:
   1. Global resource initialization:
 If some third-party libraries used by the SDK require initialization before calling, the initialization should be performed here, such as the cjson and curl libraries used by the *protocol* layer.
-+ SDK Deinitialization:
++ BoAT-Engine Deinitialization:
 After using the BoAT SDK, SDK deinitialization should be performed to release resources. The interface includes the following:
   1. Global resource deinitialization:
 If some third-party libraries used by the SDK require deinitialization before calling, the deinitialization should be performed here, such as the cjson and curl libraries used by the *protocol* layer.
 
-####### Wallet Operations
+**Wallet Operations**
 + Wallet Initialization:
 This interface is used to create a new wallet or read an existing wallet. The interface includes the following:
   1. Create a new wallet or read an existing wallet based on the input parameters.
@@ -760,18 +760,26 @@ The typical process of creating an Ethereum transaction using BoAT SDK is illust
 Figure 5-1 Process of Creating a Transaction using BoAT
 
 The steps involved in this process are as follows:
-+ BoAT-Engine SDK Initialization:
-Please refer to the section [BoAT-Engine SDK Initialization/Deinitialization](#BoAT-Engine-SDK-InitializationDeinitialization) for details on initializing the BoAT-Engine SDK.
-+ Wallet Creation:
-Please refer to the section [Wallet Operations](#Wallet-Operations) for details on creating a wallet.
-+ Transaction Initialization:
-Please refer to the section [Implementation Overview of Ethereum/Polygon Transaction Interface Functions](#Implementation-Overview-of-EthereumPolygon-Transaction-Interface-Functions) for details on transaction initialization.
-+ Setting the Nonce Field
-+ Setting the Data Field
-+ Sending the Transaction:
-Please refer to the section [Implementation Overview of Ethereum/Polygon Transaction Interface Functions](#Implementation-Overview-of-EthereumPolygon-Transaction-Interface-Functions) for details on sending the transaction.
-+ BoAT SDK Deinitialization:
-Please refer to the section [BoAT-Engine SDK Initialization/Deinitialization](#BoAT-Engine-SDK-InitializationDeinitialization) for details on deinitializing the BoAT SDK.
++ BoAT-Engine Initialization:  
+Please refer to the section [Wallet Interface Function Implementation Summary](#Wallet-Interface-Function-Implementation-Summary) for details on initializing the BoAT-Engine.
++ Generate key pair  
+Please refer to the section [Keypair Operations](#Keypair-Operations) for details on Keypair Generation
++ Create blockchain network  
+Please refer to the section [Network Operations](#Network-Operations) for details on Network Creation
++ Initialize wallet  
+Please refer to the section [Wallet Operations](#Wallet-Operations) for details on Wallet Initialization
++ Initialize transaction  
+Please refer to the section [Summary of Ethereum/Polygon Transaction Interface Function Implementation](#Summary-of-Ethereum-Polygon-Transaction-Interface-Function-Implementation) for details on Transaction Initialization
++ Set Nonce field  
+Please refer to the section [Summary of Ethereum/Polygon Transaction Interface Function Implementation](#Summary-of-Ethereum-Polygon-Transaction-Interface-Function-Implementation) for details on setting Nonce field
++ Set Data field  
+Please refer to the section [Summary of Ethereum/Polygon Transaction Interface Function Implementation](#Summary-of-Ethereum-Polygon-Transaction-Interface-Function-Implementation) for details on Set Data field
++ Send transaction  
+Please refer to the section [Summary of Ethereum/Polygon Transaction Interface Function Implementation](#Summary-of-Ethereum-Polygon-Transaction-Interface-Function-Implementation) for details on Send transaction
++ Deinitialize wallet  
+Please refer to the section [Wallet Operations](#Wallet-Operations) for details on Wallet Deinitialization
++ Deinitialize BoAT Engine  
+Please refer to the section [Wallet Interface Function Implementation Summary](#Wallet-Interface-Function-Implementation-Summary) for details on deinitializing the BoAT-Engine.
 
 ### Creating a PlatON Transaction using BoAT SDK
 The process of creating a PlatON transaction is the same as that of Ethereum. Please refer to the section [Creating an Ethereum Transaction using BoAT SDK](#Creating-an-Ethereum-Transaction-using-BoAT-SDK) for details.
