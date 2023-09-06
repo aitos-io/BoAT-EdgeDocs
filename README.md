@@ -67,7 +67,7 @@ The **BoAT Infra Arch** development framework adopts a layered structure, consis
 ## Releases and Status
 
 ### Release Information
-For a complete list of new features, please visit the [Release Information](https://github.com/aitos-io/BoAT-EdgeDocs/blob/main/docs/BoATInfraArch_Releases.md).
+For a complete list of new features, please visit the [Release Information](https://github.com/aitos-io/BoAT-EdgeDocs/blob/main/BoATInfraArch_Releases.md).
 
 ### Project Status Updates
 For project status updates, please visit the [Project Status Update](https://github.com/aitos-io/project-status-update).
