@@ -90,9 +90,8 @@ For the complete documentation index, please visit the [BoAT Documentation](http
 Coming soon.
 
 ## Community
-BoAT-X community related information:
+Community related information:
 + Contact Email: info@aitos.io
-+ Bug Submission: [BoAT-X Issues](https://github.com/aitos-io/BoAT-X-Framework/issues)
 + News: https://aitos-io.medium.com/
 + LinkedIn: https://www.linkedin.com/company/aitos-io
 
@@ -102,8 +101,6 @@ Community contributions from core team members are welcome, including (but not l
 For more information, please refer to the [Contribution Guideline](./CONTRIBUTING.md).
 
 For development documentation, please refer to the [BoAT documentation](https://aitos-io.github.io/BoAT-EdgeDocs).
-
-To submit Pull Requests, please visit [Pull Requests](https://github.com/aitos-io/BoAT-EdgeDocs/pulls).
 
 ## License
 
