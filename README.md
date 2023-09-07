@@ -109,8 +109,3 @@ To submit Pull Requests, please visit [Pull Requests](https://github.com/aitos-i
 
 Apache License 2.0, please visit [LICENSE](./LICENSE).
 
-## Sailors, welcome to embark on the fantastic journey of BoAT
-
-**Open source by [aitos.io](http://www.aitos.io/)**
-
-[![aitos.io](https://aitos-io.github.io/BoAT-X-Framework/logo/aitos_logo_100.png)](http://www.aitos.io/)
