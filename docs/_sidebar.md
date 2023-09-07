@@ -1,1 +1,1 @@
-- [**BoAT-X Documents**](/README.md)
+- [**BoAT-Edge Documents**](/README.md)
