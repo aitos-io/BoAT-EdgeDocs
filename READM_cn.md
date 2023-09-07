@@ -1,6 +1,6 @@
 
 # BoAT-Edge Framework
-[![Issue](https://img.shields.io/github/issues/aitos-io/BoAT-EdgeDocs)](https://github.com/aitos-io/BoAT-EdgeDocs/issues)![Forks](https://img.shields.io/github/forks/aitos-io/BoAT-EdgeDocs)![Stars](https://img.shields.io/github/stars/phengao/hello-world)[![GitHub Release](https://img.shields.io/github/license/aitos-io/BoAT-EdgeDocs)](https://github.com/aitos-io/BoAT-EdgeDocs/blob/master/LICENSE)[![Join the chat at https://gitter.im/BoAT-X/community](https://badges.gitter.im/BoAT-X/community.svg)](https://gitter.im/BoAT-X/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Issue](https://img.shields.io/github/issues/aitos-io/BoAT-EdgeDocs)](https://github.com/aitos-io/BoAT-EdgeDocs/issues)![Forks](https://img.shields.io/github/forks/aitos-io/BoAT-EdgeDocs)![Stars](https://img.shields.io/github/stars/aitos-io/BoAT-EdgeDocs)[![GitHub Release](https://img.shields.io/github/license/aitos-io/BoAT-EdgeDocs)](https://github.com/aitos-io/BoAT-EdgeDocs/blob/master/LICENSE)[![Join the chat at https://gitter.im/BoAT-X/community](https://badges.gitter.im/BoAT-X/community.svg)](https://gitter.im/BoAT-X/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ![BoAT logo](https://aitos-io.github.io/BoAT-EdgeDocs/logo/BoAT_RGB_Horizontal_100.png)
 
@@ -67,7 +67,7 @@ BoAT-Edge产品族提供了一整套基础组件，利用区块链技术改造�
 ## 发布及状态
 
 ### 发布信息
-新功能的完整列表，请访问 [发布信息](https://github.com/phengao/hello-world/blob/master/BoATInfraArch_Releases.md)。
+新功能的完整列表，请访问 [发布信息](https://github.com/aitos-io/BoAT-EdgeDocs/blob/master/BoATInfraArch_Releases.md)。
 
 ### 项目状态报告
 项目状态更新，请访问[项目状态更新报告](https://github.com/aitos-io/project-status-update)。
