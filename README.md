@@ -103,7 +103,7 @@ For more information, please refer to the [Contribution Guideline](./CONTRIBUTIN
 
 For development documentation, please refer to the [BoAT documentation](https://aitos-io.github.io/BoAT-EdgeDocs).
 
-To submit Pull Requests, please visit [Pull Requests](https://github.com/aitos-io/BoAT-X-Framework/pulls).
+To submit Pull Requests, please visit [Pull Requests](https://github.com/aitos-io/BoAT-EdgeDocs/pulls).
 
 ## License
 
