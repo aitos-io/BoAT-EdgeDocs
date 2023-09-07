@@ -1,4 +1,4 @@
-# BoAT-X Documents
+# BoAT-Edge Documents
 
 - [**BoAT User Guide**](/en-us/BoAT_User_Guide_en.md)
 - [**BoAT System Requirements**](/en-us/BoAT_System_Requirements_en.md)
