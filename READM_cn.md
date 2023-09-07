@@ -92,9 +92,8 @@ BoAT-Edge产品族提供了一整套基础组件，利用区块链技术改造�
 
 
 ## 社区
-BoAT-X 社区相关信息：
+社区相关信息：
 + 联系邮箱： info@aitos.io
-+ 漏洞提交： [BoAT-X Issues](https://github.com/aitos-io/BoAT-EdgeDocs/issues)
 + 相关新闻： https://aitos-io.medium.com/
 + LinkedIn： https://www.linkedin.com/company/aitos-io
 
@@ -105,9 +104,6 @@ BoAT-X 社区相关信息：
 更多信息请参考 [Contribution Guideline](./CONTRIBUTING.md)。
 
 开发文档请参考 [BoAT documentation](https://aitos-io.github.io/BoAT-EdgeDocs)。
-
-提交Pull Requests请前往[Pull Requests](https://github.com/aitos-io/BoAT-EdgeDocs/pulls)。
-
 
 ## 许可
 
