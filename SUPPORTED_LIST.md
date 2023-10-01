@@ -27,7 +27,7 @@
 
 # Supported Chip/Module List
 
-|Chipset            |Module                    |Vendor            |Wireless protocol     |Additional Remarks
+|Chip               |Module                    |Vendor            |Wireless protocol     |Additional Remarks
 |:-----------------:|:------------------------:|:----------------:|:--------------------:|:----------------------|
 |Qualcomm MDM9205   |BG95                      |Quectel           |NB-IoT/Cat.M          
 |Mediatek MT2625    |BC20                      |Quectel           |NB-IoT                
@@ -58,6 +58,7 @@
 |ASR1606            |A7670C                    |SIMCom            |LTE Cat.1             
 |ASR1606            |L503C-6S                  |MobileTek         |LTE Cat.1             
 |ASR1606            |ML307A                    |China Mobile      |LTE Cat.1         
+|Xinyi XY4100       |                          |Xinyi             |LTE Cat.1            
 |UNISOC V8850       |                          |UNISOC            |LTE Cat.1
 |STM32H563          |                          |STMicroelectronics|                     |Azure RTOS
 
