@@ -5,7 +5,7 @@
 + PlatON Enterprise (PlatONE)
 + FISCO-BCOS
 + Hyperledger Fabric
-+ Huawei BCS (华为链)
++ Huawei BCS
 + Chainmaker
 + Venachain
 
@@ -25,37 +25,42 @@
 + [Venachain Docs](https://venachain-docs.readthedocs.io/zh/latest/)
 + [Polygon](https://polygon.technology/)
 
-# Supported Module List
+# Supported Chip/Module List
 
-|支持模组 Supported Module|厂商 Manufacturer|制式 wireless protocol|芯片Chipset        |备注 Additional Remarks
-|:-----------------------:|:---------------:|:--------------------:|:-----------------:|:----------------------|
-BG95                      |移远 Quectel     |NB-IoT/Cat.M          |Qualcomm MDM9205
-BC20                      |移远 Quectel     |NB-IoT                |Mediatek MT2625
-BC26                      |移远 Quectel     |NB-IoT                |Mediatek MT2625
-EC20/EC25                 |移远 Quectel     |LTE Cat.4             |Qualcomm MDM9207
-SC60                      |移远 Quectel     |LTE Cat.4             |Qualcomm SDM450
-L610                      |广和通 Fibocom   |LTE Cat.1             |UNISOC UIS8910DM
-L718                      |广和通 Fibocom   |LTE Cat.4             |ZTE ZX7520 V3
-NL668                     |广和通 Fibocom   |LTE Cat.4 linux       |Qualcomm MDM9207
-FG150                     |广和通 Fibocom   |5G                    |Qualcomm SDX55
-FM650                     |广和通 Fibocom   |5G                    |UNISOC V510
-MA510                     |广和通 Fibocom   |LTE/Cat.M/NB2/EGPTS   |Qualcomm MDM9205
-CLM920_NC3                |域格 YuGe Tech   |LTE Cat.4             |Qualcomm MDM9207
-CLM920_RC3                |域格 YuGe Tech   |LTE Cat.1             |ASR1601
-N58                       |有方 Neoway      |LTE Cat.1             |UNISOC UIS8910DM
-N720                      |有方 Neoway      |LTE Cat.4 linux       |Qualcomm MDM9207
-ML302                     |中移物联 China Mobile|LTE Cat.1         |UNISOC UIS8910DM
-SIM7600                   |芯讯通 SIMCom    |LTE Cat.4 linux       |Qualcomm MDM9207
-SIM8200                   |芯讯通 SIMCom    |5G                    |Qualcomm SDX55
-L506                      |移柯 MobileTek   |LTE Cat.4 linux       |Qualcomm MDM9207
-BF2                       |跃昉LeapFive     |WiFi                  |LeapFive BF2         |BF2是芯片型号 (BF2 is the chip model)
-SLM320                    |美格 MEIG        |LTE Cat.1             |UNISOC UIS8910DM
-Yanfei CUIoT-MZ-6         |联通 China Unicom|LTE Cat.1             |UNISOC UIS8910DM
-MN316                     |中移物联 China Mobile|NB-IoT            |Xinyi XY1100
-BeagleV-StarLight星光     |seeed, StarFive and beagleboard|Ethernet|StarFive JH7100      |BeagleV-StarLight星光 is a development board
-CA30B22                   |麦腾 m2motive    |5G                    |MTK MT2735
+|Chipset            |Module                    |Vendor            |Wireless protocol     |Additional Remarks
+|:-----------------:|:------------------------:|:----------------:|:--------------------:|:----------------------|
+|Qualcomm MDM9205   |BG95                      |Quectel           |NB-IoT/Cat.M          
+|Mediatek MT2625    |BC20                      |Quectel           |NB-IoT                
+|Mediatek MT2625    |BC26                      |Quectel           |NB-IoT                
+|Qualcomm MDM9207   |EC20/EC25                 |Quectel           |LTE Cat.4             
+|Qualcomm SDM450    |SC60                      |Quectel           |LTE Cat.4             
+|UNISOC UIS8910DM   |L610                      |Fibocom           |LTE Cat.1             
+|ZTE ZX7520 V3      |L718                      |Fibocom           |LTE Cat.4             
+|Qualcomm MDM9207   |NL668                     |Fibocom           |LTE Cat.4 linux       
+|Qualcomm SDX55     |FG150                     |Fibocom           |5G                    
+|UNISOC V510        |FM650                     |Fibocom           |5G                    
+|Qualcomm MDM9205   |MA510                     |Fibocom           |LTE/Cat.M/NB2/EGPTS   
+|Qualcomm MDM9207   |CLM920_NC3                |YuGe Tech         |LTE Cat.4             
+|ASR1601            |CLM920_RC3                |YuGe Tech         |LTE Cat.1             
+|UNISOC UIS8910DM   |N58                       |Neoway            |LTE Cat.1             
+|Qualcomm MDM9207   |N720                      |Neoway            |LTE Cat.4 linux       
+|UNISOC UIS8910DM   |ML302                     |China Mobile      |LTE Cat.1         
+|Qualcomm MDM9207   |SIM7600                   |SIMCom            |LTE Cat.4 linux       
+|Qualcomm SDX55     |SIM8200                   |SIMCom            |5G                    
+|Qualcomm MDM9207   |L506                      |MobileTek         |LTE Cat.4 linux       
+|LeapFive BF2       |                          |LeapFive          |WiFi
+|UNISOC UIS8910DM   |SLM320                    |MEIG              |LTE Cat.1             
+|UNISOC UIS8910DM   |Yanfei CUIoT-MZ-6         |China Unicom      |LTE Cat.1             
+|Xinyi XY1100       |MN316                     |China Mobile      |NB-IoT            
+|StarFive JH7100    |BeagleV-StarLight         |seeed, StarFive and beagleboard|Ethernet  |BeagleV-StarLight is a development board
+|MTK MT2735         |CA30B22                   |m2motive          |5G                    
+|UNISOC V8811       |                          |UNISOC            |NB-IoT
+|ASR1606            |A7670C                    |SIMCom            |LTE Cat.1             
+|ASR1606            |L503C-6S                  |MobileTek         |LTE Cat.1             
+|ASR1606            |ML307A                    |China Mobile      |LTE Cat.1         
+|UNISOC V8850       |                          |UNISOC            |LTE Cat.1
+|STM32H563          |                          |STMicroelectronics|                     |Azure RTOS
 
-
-*Last update on June 24th, 2022*
-
-NOTE: Some of the blockchains are not supported on some modules due to resource constraint.
+*Last update on September 27th, 2023*
+*The list is not exhausted because some unlisted hardware models are also compatible.*
+*Some of the blockchains are not supported on some chip/modules due to resource constraint.*
