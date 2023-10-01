@@ -36,14 +36,21 @@ BoAT-Edge产品族提供了一整套基础组件，利用区块链技术改造�
 
 在*BoAT-Edge*产品中，BoAT Edge组件是一个轻量级的C语言多链客户端，支持主流物联网无线模块和芯片，BoAT-Edge将区块链的服务能力从仅面向计算机和手机扩展到可以面向碎片化的物联网设备。
 
-### BoAT-Edge工作原理
+### BoAT-Edge运行模式
 
-
-#### 运行模式
+#### 直接模式
 
 ![Direct Approach](https://aitos-io.github.io/BoAT-EdgeDocs/en-us/images/BoAT_README_Direct_Approach.png)
 
-物联网设备能够直接访问区块链节点和网络服务。物联网设备向物联网平台发送数据，并通过调用BoAT-Engine API将数据哈希值和签名发送到区块链上。数据消费者随后将链上哈希值与存储在物联网平台上的数据产生的哈希值进行比对，以确定其数据可信度。消费者还可以检查数据是否来自真实注册在网的物联网终端。
+物联网设备能够直接访问区块链节点和网络服务。物联网设备向物联网平台发送数据，并通过调用BoAT-Engine API将数据哈希值和签名发送到区块链上。数据消费者随后将链上哈希值与存储在物联网平台上的数据产生的哈希值进行比对，以确定数据是否可信。
+
+#### 间接模式
+
+![Indirect Approach](https://aitos-io.github.io/BoAT-X-Framework/en-us/images/BoAT_README_Indirect_Approach.png)
+
+间接模式适用于由某些因素（如：IP白名单限制，网络架构限制，硬件加密算法能力不足等）导致无法直接访问区块链节点的物联网设备的情况。
+
+物联网设备使用设备的密钥对数据进行签名，并将签名发送到边缘网关。边缘网关的将签名（即数据指纹）发送到区块链上。数据消费者随后通过链上签名值对存储在物联网平台上的数据进行验签，以确定数据是否可信。
 
 ### 代码下载
 
@@ -59,7 +66,7 @@ BoAT-Edge产品族提供了一整套基础组件，利用区块链技术改造�
 
   下载地址：    [BoAT-SupportLayer](https://github.com/aitos-io/BoAT-SupportLayer)
 
-- **BoAT-Engine**：提供多种区块链应用API的静态库。
+- **BoAT-Engine**：提供多种区块链应用API的静态库。仅用于直接模式。
 
   下载地址：    [BoAT-Engine](https://github.com/aitos-io/BoAT-Engine)
 
