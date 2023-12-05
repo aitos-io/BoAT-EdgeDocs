@@ -24,7 +24,7 @@
 
 
 ## BOAT Edge设计目标
-作为物联网区块链应用端侧产品，应以最小的改动代价，方便、快速的移植到各物联网设备中*~~模组~~*中，BOAT Edge的设计遵循以下原则:
+作为物联网区块链应用端侧产品，应以最小的改动代价，方便、快速的移植到各物联网设备中，BOAT Edge的设计遵循以下原则:
 + 层次化设计  
 + 多个区块链协议支持  
 + 可扩展设计  
@@ -327,8 +327,7 @@ Network应当实现以下功能：
 
 ### Protocol区块链协议接口
 #### 概述
-协议接口，主要实现各个区块链的协议部分。对于Ethereum系的区块链，其协议比较相似，如Polygon、PlatON、PlatONE和FISCO BCOS。  
-~~协议层由RPC层提供支持。RPC层描述请参考 [RPC层](#RPC层).~~  
+协议接口，主要实现各个区块链的协议部分。对于Ethereum系的区块链，其协议比较相似，如Polygon、PlatON、PlatONE和FISCO BCOS。   
 
 #### Ethereum的协议层实现
 ##### raw transaction接口
