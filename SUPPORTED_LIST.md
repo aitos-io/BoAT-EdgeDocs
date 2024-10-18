@@ -60,8 +60,9 @@
 |ASR1606            |ML307A                    |China Mobile      |LTE Cat.1         
 |Xinyi XY4100       |                          |Xinyi             |LTE Cat.1            
 |UNISOC V8850       |                          |UNISOC            |LTE Cat.1
-|STM32H563          |                          |STMicroelectronics|                     |Azure RTOS
+|STM32H563/STM32H573|                          |STMicroelectronics|                     |Azure RTOS
+|ASR1803            |AM420                     |AMAZIOT           |LTE Cat.4
 
-*Last update on September 27th, 2023*
+*Last update on October 18th, 2024*
 *The list is not exhausted because some unlisted hardware models are also compatible.*
 *Some of the blockchains are not supported on some chip/modules due to resource constraint.*
